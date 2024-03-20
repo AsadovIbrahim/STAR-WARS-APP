@@ -3,6 +3,8 @@ body{
   justify-content: center;
   background-image: url(https://wallpapercave.com/wp/wp11853060.jpg);
   background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .App {
