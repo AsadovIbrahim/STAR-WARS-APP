@@ -1,0 +1,82 @@
+body{
+  display: flex;
+  justify-content: center;
+  background-image: url(https://wallpapercave.com/wp/wp11853060.jpg);
+  background-position: top;
+}
+
+.App {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1{
+  color: #ffffff;
+}
+.films-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.film-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  width: 200px;
+  transition-duration: 1s;
+}
+
+.film-item:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background: url(https://i.pinimg.com/originals/36/17/55/361755057e65c538f1f77f21429c9c59.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+
+}
+
+.close {
+  color: #fff;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul li{
+  list-style: none;
+  color: #fff;
+  cursor: pointer;
+  transition: 1s;
+}
+ul li:hover{
+  color: red;
+}
